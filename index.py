@@ -23,7 +23,7 @@ def ghoul_spam_handler(client, message):
             sleep(e.x)
 
         i -= 7
-        sleep(2/messages_per_second)
+        sleep(0/messages_per_second)
 
     if(end_message != ''):
         client.send_message(message.chat.id, end_message)
